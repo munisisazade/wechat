@@ -2,7 +2,7 @@
 $config['db']['host'] = 'localhost';
 $config['db']['name'] = 'chat';
 $config['db']['user'] = 'root';
-$config['db']['pass'] = '';
+$config['db']['pass'] = 'root';
 $config['db']['pre'] = '';
 
 $config['site_title'] = 'Wchat';
