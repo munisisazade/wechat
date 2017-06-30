@@ -100,7 +100,7 @@ if(is_writable('../config.php'))
                             `password` varchar(50) NOT NULL default '',
                             `email` varchar(225) NOT NULL default '',
                             `name` varchar(40) NOT NULL default '',
-                            `country` text NOT NULL default 'Baku',
+                            `country` text,
                             `about` longtext NOT NULL default '',
                             `sex` varchar(40) NOT NULL default '',
                             `dob` text NOT NULL default '',
@@ -122,7 +122,7 @@ if(is_writable('../config.php'))
                             `to_id` varchar(50) NOT NULL default '',
                             `from_uname` varchar(225) NOT NULL default '',
                             `to_uname` varchar(255) NOT NULL default '',
-                            `message_content` longtext NOT NULL default 's',
+                            `message_content` longtext,
                             `message_date` DATETIME NOT NULL DEFAULT  '0000-00-00 00:00:00',
                             `recd` TINYINT( 1 ) NOT NULL DEFAULT  '0',
                             `message_type` varchar(255) NOT NULL default '',  PRIMARY KEY  (`message_id`))";
