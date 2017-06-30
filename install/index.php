@@ -111,7 +111,7 @@ if(is_writable('../config.php'))
                             `instagram` varchar(40) NOT NULL default '',
                             `picname` varchar(225) NOT NULL default '',
                             `online` tinyint(1) unsigned NOT NULL default '0',
-                            `last_active_timestamp` DATETIME NOT NULL DEFAULT  '0000-00-00 00:00:00',
+                            `last_active_timestamp` DATETIME,
                             `joined` DATETIME NOT NULL DEFAULT  '0000-00-00 00:00:00',
                              PRIMARY KEY  (`id`))";
 
